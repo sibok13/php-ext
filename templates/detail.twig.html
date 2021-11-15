@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; padding: 20px 50px;">
+        <h1>Изображение {{img.title}}</h1>
+        <div style="display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; align-items: center;">
+            <img style="width: 70%;" src="/images/{{img.id}}">
+            <br>
+            <div><a href="../">ОБРАТНО</a></div>
+        </div>
+    </div>
+</body>
+</html>
