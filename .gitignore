@@ -17,7 +17,7 @@
 /public/images/
 /config/
 /bin/
-/tests/
+/tests/bootstrap.php
 /src/Kernel.php
 ###< symfony/framework-bundle ###
 
